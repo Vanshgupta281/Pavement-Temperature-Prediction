@@ -1,0 +1,54 @@
+/* state.css */
+
+.state-container {
+    padding: 20px;
+  }
+  
+  .state-title {
+    margin-bottom: 20px;
+  }
+  
+  .select-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Reduce margin */
+  }
+  
+  .state-select,
+  .district-select,
+  .models-dropdown {
+    width: 200px;
+    transition: all 0.3s ease;
+  }
+  
+  .state-select:hover,
+  .district-select:hover,
+  .models-dropdown:hover {
+    transform: scale(1.05); /* Increase scale on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  }
+  
+  .models-dropdown {
+    padding-left: 10px;
+  }
+  .other-locations-text {
+    text-align: left;
+    color: grey;
+  }
+  
+  /* Reduce space between buttons */
+  .select-container .ant-select,
+  .select-container .ant-dropdown {
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  .graph-container {
+    display: flex;
+    justify-content: center; /* Center the graph horizontally */
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  .plot-wrapper {
+    width: 200%; /* Set the width of the graph wrapper */
+  }
+  
+  
